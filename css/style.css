@@ -1,0 +1,99 @@
+html, body{
+		
+}
+
+
+
+#main{
+	padding: 0;
+	margin: 0;
+	padding-top: 0vh;
+	height: 44vh;
+	display: flex;
+	position: absolute;
+	top: 20%;
+	left: 41.5%;
+	opacity: 0.8;
+}
+#board{
+	padding: 0;
+	margin: auto;
+	height: 33vh;
+	width: 33vh;
+}
+
+
+
+#r{
+	display: inline-block;
+	color: #fff;
+	font-size: 2vh;
+	text-align: center;
+	width: 32.5vh;
+	line-height: 3vh;
+	cursor: default;
+	
+	
+	
+}
+
+.block{
+	padding:0;
+	margin: 50px auto;
+	margin:0.5vh;
+	height:10vh;
+	width:10vh;
+	line-height:10vh;
+	vertical-align:middle;
+	text-align:center;
+	font-size:0;
+	border-radius:5px;
+	color: #000;
+	background:#fff;
+	cursor:pointer;
+	float:left;
+}
+
+.block:hover{
+	background: #5cf6e3;
+	color: #fff;
+}
+
+.Button{
+	margin:0.5vh;
+	padding:0;
+	height:5vh;
+	width:32vh;
+	line-height:5vh;
+	vertical-align:	middle;
+	background: #fff;
+	color: #000;
+	font-size: 2vh;
+	text-align:center;
+	border-radius:5px;
+	cursor:pointer;
+	float:left;
+}
+
+.Button:hover{
+	background: #f00;
+	color: #fff
+}
+
+.diffi {
+	width: 33vh;
+	display: flex;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	opacity: 0.8;
+}
+
+.diffi > * {
+	flex: 1;
+	height: 5vh;
+	background: #fff;
+}
+
